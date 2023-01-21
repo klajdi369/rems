@@ -1,0 +1,49 @@
+.home-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-wrapper .left-text-wrapper {
+  padding: 0px 150px;
+  max-width: 40%;
+}
+
+.home-wrapper .left-text-wrapper * {
+  font-family: "Ubuntu";
+}
+
+.home-wrapper .left-text-wrapper h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 138px;
+  color: #e6b17e;
+}
+
+.home-wrapper .left-text-wrapper h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 51px;
+  color: #d9bca9;
+}
+
+.home-wrapper .left-text-wrapper h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #d9bca9;
+}
+
+.home-form {
+  margin-right: 160px;
+}
